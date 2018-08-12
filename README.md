@@ -1,8 +1,8 @@
-# [SOLVED] Warning-QT_DEVICE_PIXEL_RATIO-is-deprecated ...
+# [SOLVED] ```Warning-QT_DEVICE_PIXEL_RATIO-is-deprecated ...```
 
 In this tutorial I will show you how to fix the ```QT_DEVICE_PIXEL_RATIO``` warning when compiling Qt Apps.
  
- ------------------------- TUTORIAL ---------------------------
+## TUTORIAL ##
 
  This annoying warning can be fixed by just adding the follow line to your "main()" function:
 ```
