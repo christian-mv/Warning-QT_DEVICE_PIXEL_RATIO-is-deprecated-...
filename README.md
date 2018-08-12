@@ -4,7 +4,7 @@ In this tutorial I will show you how to fix the ```QT_DEVICE_PIXEL_RATIO``` warn
  
 ## TUTORIAL ##
 
- This annoying warning can be fixed by just adding the follow line to your "main()" function:
+ This annoying warning can be fixed by just adding the follow line to your ```main()``` function:
 ```
  qputenv("QT_SCALE_FACTOR", QByteArray("1"));
 ```
